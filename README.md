@@ -5,12 +5,12 @@
 * Version 1.0
 
 * Contacts: 
-    Kaveh Shamsi : kshamsi@ufl.edu
-    Yier Jin : yier.jin@ece.ufl.edu
+    - Kaveh Shamsi : kshamsi@ufl.edu
+    - Yier Jin : yier.jin@ece.ufl.edu
 
 # Capabilities #
 
-* neos has a parser written in boost::qi for reading in netlist files in Bench and Verilog formats supporting combinational circuits that use AND/NAND/OR/NOR/BUF/NOT/XOR/XNOR gates. A set of benchmark circuits are included in the /bench directory. 
+* neos has a parser written in boost::qi for reading in netlist files in Bench and Verilog formats supporting combinational circuits that use AND/NAND/OR/NOR/BUF/NOT/XOR/XNOR gates. A set of benchmark circuits are included in the /bench directory.
 
 * Combinational and Sequential SAT based deobfuscation using the Glucouse SAT solver with various key-condition-crunching techniques. Sequential deobfuscation is based on model-checking using integrated bounded-model-checking (BMC) routines. 
 
