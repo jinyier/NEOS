@@ -1,7 +1,7 @@
  --------- NEOS License ------------------
  
 Copyright (c) 2014-2019, Kaveh Shamsi
-            Security-in-Silicon Lab (SLL directed by Yier Jin), University of Florida, USA
+            Security-in-Silicon Lab (SSL directed by Yier Jin), University of Florida, USA
 
 NEOS interfaces to MiniSAT, and Glucose SAT-solvers. Glucose is the primary solver used
 and hence the bellow copyright notice from Glucose is included.
