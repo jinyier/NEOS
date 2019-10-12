@@ -22,6 +22,9 @@
 
 there are two main ways to use neos. First is by simply passing flags and arguments, and second is using the interactive mode. The interactive mode dynamically links to libreadline and the non-interactive mode uses boost_program_options which is statically linked. 
 
+For Ubuntu18 users, Ubuntu18 by default has `libreadline5` and `libreadline7` without `libreadline6`. Until this issue is resolved, you can manually copy `libreadline.so.7` or `libreadline.so.5` in your system to `libreadline.so.6` to get around this issue. 
+These files should be in `/usr/lib/x86_64-linux-gnu/`
+
 We start with the non-interactive mode:
 
 ```
