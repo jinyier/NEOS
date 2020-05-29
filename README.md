@@ -8,6 +8,10 @@
     - Kaveh Shamsi : kshamsi@ufl.edu
     - Yier Jin : yier.jin@ece.ufl.edu
 
+# Upgrade Note #
+
+A version 2.0 was recently released at https://bitbucket.org/kavehshm/neos. Please use the binary in the new repo for testing. With the new version being released, we will not maintain the version 1.0 in this repo. 
+
 # Capabilities #
 
 * neos has a parser written in boost::qi for reading in netlist files in Bench and Verilog formats supporting combinational circuits that use AND/NAND/OR/NOR/BUF/NOT/XOR/XNOR gates. A set of benchmark circuits are included in the /bench directory.
